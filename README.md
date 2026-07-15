@@ -6,9 +6,9 @@
 
 <p align="center">Find the light. Keep the scene moving.</p>
 
-Lightkeeper is a small Foundry VTT module for GMs who work with a lot of Ambient Lights. It adds visible origin markers on the Lighting layer and a Navigator for finding, selecting, focusing, renaming, and configuring lights without hunting across the canvas.
+Lightkeeper is a small Foundry VTT module for GMs who work with a lot of Ambient Lights. It adds an improved visible origin marker on the Lighting layer and a Navigator panel for finding, selecting, focusing, renaming, and configuring lights without hunting across the canvas.
 
-Built for Foundry VTT **14.364**. It deliberately targets that release only.
+Built for Foundry VTT **14.364**.
 
 ## Install
 
@@ -24,7 +24,7 @@ Install it, activate **Lightkeeper** in a world, then switch to the **Lighting**
 
 ### Mark the origin
 
-On the Lighting layer, Lightkeeper redraws Foundry's own Ambient Light translate handle as a clearer origin marker. It does not add another canvas overlay or replace Foundry's interaction model. Click and drag work the way they already do.
+On the Lighting layer, Lightkeeper redraws Foundry's own Ambient Light translate handle as a clearer origin marker. It does not add another canvas overlay but modifies the existing marker to your preferences. Click and drag work the way they already do.
 
 ![An Ambient Light origin with Lightkeeper's visible native handle](docs/images/marker-example.jpg)
 
@@ -32,7 +32,7 @@ Marker appearance is configurable per user. A GM can also enforce a shared color
 
 ### Open the Navigator
 
-Choose the lighthouse button in Foundry's Lighting controls. The Navigator keeps the practical details in one place: name, coordinates, elevation, bright/dim values, state, and the actions that matter.
+Choose the lighthouse button in Foundry's Lighting controls. The Navigator keeps the practical details in one place: name, coordinates, elevation, bright/dim values, state, etc.
 
 ![The Lightkeeper Navigator with the search box and state filters](docs/images/navigator-overview.png)
 
@@ -62,7 +62,7 @@ Lightkeeper settings cover:
 
 ## Compatibility
 
-Lightkeeper is pinned to **Foundry VTT 14.364**. It reaches into a version-specific native control so that Foundry keeps ownership of selection and drag behavior. Do not assume it is compatible with another Foundry build until that integration has been reviewed again.
+Lightkeeper is built and tested on **Foundry VTT 14.364**. It may work with earlier releases of V14 but will not work with Foundry V13 or before.
 
 ## License
 
