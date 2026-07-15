@@ -1,3 +1,5 @@
+import { isWorldSettingsGM } from "./access.js";
+
 export const MODULE_ID = "lightkeeper";
 
 // SettingsConfig recognizes DataField instances and ColorField renders Foundry's linked color-picker/text control.
@@ -36,13 +38,13 @@ export function registerSettings() {
   }
   game.settings.register(MODULE_ID, "enforceSharedAppearance", {
     name: "LIGHTKEEPER.Settings.enforceSharedAppearance.Name", hint: "LIGHTKEEPER.Settings.enforceSharedAppearance.Hint",
-    scope: "world", config: true, type: Boolean, default: false, onChange: refreshMarkers
+    scope: "world", config: isWorldSettingsGM(), type: Boolean, default: false, onChange: refreshMarkers
   });
   for (const [key, data] of Object.entries(WORLD_APPEARANCE)) {
     const keyName = sharedKey(key);
     game.settings.register(MODULE_ID, keyName, {
       name: `LIGHTKEEPER.Settings.${keyName}.Name`, hint: `LIGHTKEEPER.Settings.${keyName}.Hint`,
-      config: true, onChange: refreshMarkers, ...data
+      config: isWorldSettingsGM(), onChange: refreshMarkers, ...data
     });
   }
 }

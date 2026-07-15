@@ -60,10 +60,6 @@ Lightkeeper settings cover:
 - private marker visibility
 - GM-managed shared appearance
 
-### Shared appearance
-
-A GM can set the **Shared** color, outline, size, and compensation fields, then enable **Enforce shared marker appearance**. Those world settings replace each GM and Assistant GM's personal appearance values. **Show Lightkeeper origin markers** remains a private opt-out.
-
 ## Compatibility
 
 Lightkeeper is built and tested on **Foundry VTT 14.364**. It may work with earlier releases of V14 but will not work with Foundry V13 or before.

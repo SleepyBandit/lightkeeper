@@ -114,19 +114,16 @@ test("personal and shared marker colors register native ColorField settings", ()
   assert.match(settings, /markerColor: \{type: colorField\(\), default: "#f6c945", scope: "client"\}/);
   assert.match(settings, /markerColor: \{type: colorField\(\), default: "#f6c945", scope: "world"\}/);
   assert.match(settings, /showMarkers: \{type: Boolean, default: true, scope: "client"\}/);
-  assert.match(settings, /scope: "world", config: true, type: Boolean, default: false, onChange: refreshMarkers/);
-  assert.match(settings, /config: true, onChange: refreshMarkers, \.\.\.data/);
-  assert.doesNotMatch(settings, /isWorldSettingsGM/);
   assert.match(settings, /const get = \(key\) => game\.settings\.get\(MODULE_ID, shared \? sharedKey\(key\) : key\);/);
 });
 
-test("manifest publishes the v1.0.1 install chain and exact 14.364 boundary", () => {
+test("manifest publishes the v1.0.0 install chain and exact 14.364 boundary", () => {
   const manifest = JSON.parse(source("module.json"));
   assert.deepEqual(Object.keys(manifest).sort(), ["authors", "changelog", "compatibility", "description", "download", "esmodules", "id", "languages", "license", "manifest", "readme", "styles", "title", "url", "version"]);
-  assert.equal(manifest.version, "1.0.1");
+  assert.equal(manifest.version, "1.0.0");
   assert.equal(manifest.url, "https://github.com/SleepyBandit/lightkeeper");
   assert.equal(manifest.manifest, "https://github.com/SleepyBandit/lightkeeper/releases/latest/download/module.json");
-  assert.equal(manifest.download, "https://github.com/SleepyBandit/lightkeeper/releases/download/v1.0.1/module.zip");
+  assert.equal(manifest.download, "https://github.com/SleepyBandit/lightkeeper/releases/download/v1.0.0/module.zip");
   assert.deepEqual(manifest.compatibility, {minimum: "14.364", maximum: "14.364", verified: "14.364"});
 });
 
