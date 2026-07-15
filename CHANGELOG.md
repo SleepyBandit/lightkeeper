@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+- Fix shared-appearance settings so they are registered as configurable world settings instead of being hidden during module initialization.
+
 ## 1.0.0
 
 First public release.
