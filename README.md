@@ -26,6 +26,8 @@ Install it, activate **Lightkeeper** in a world, then switch to the **Lighting**
 
 On the Lighting layer, Lightkeeper redraws Foundry's own Ambient Light translate handle as a clearer origin marker. It does not add another canvas overlay or replace Foundry's interaction model. Click and drag work the way they already do.
 
+![An Ambient Light origin with Lightkeeper's visible native handle](docs/images/marker-example.jpg)
+
 Marker appearance is configurable per user. A GM can also enforce a shared color, outline, size range, and zoom compensation curve.
 
 ### Open the Navigator
@@ -38,11 +40,7 @@ Search by name or coordinates. Filters narrow the list to hidden, locked, positi
 
 ### Work from the list
 
-Each entry can select the light, focus the canvas on it, rename it when you have permission, or open Foundry's normal configuration sheet.
-
-![Navigator entries with Select, Focus, Rename, and Configure actions](docs/images/navigator-actions.png)
-
-The list uses Foundry's native scrolling behavior when a scene has more lights than fit in the window.
+Each entry can select the light, focus the canvas on it, rename it when you have permission, or open Foundry's normal configuration sheet. The list uses Foundry's native scrolling behavior when a scene has more lights than fit in the window.
 
 ## Who can use it
 
@@ -50,7 +48,11 @@ Lightkeeper is available to **Gamemasters** and **Assistant GMs**. Rename is sho
 
 ## Settings
 
-Open Foundry's Configure Settings window and choose **Lightkeeper** to set:
+Open Foundry's Configure Settings window and choose **Lightkeeper**. You can also open that same page from the Navigator with the settings icon in its top-right header.
+
+![Lightkeeper settings for marker visibility, color, outline, size, and zoom compensation](docs/images/settings.jpg)
+
+Lightkeeper settings cover:
 
 - marker color and outline
 - minimum and maximum marker size
