@@ -1,0 +1,21 @@
+{
+  "LIGHTKEEPER": {
+    "Settings": {
+      "showMarkers": {"Name": "Show Lightkeeper origin markers", "Hint": "Show private origin-dot markers while the Lighting layer is active."},
+      "markerColor": {"Name": "Marker color", "Hint": "Color of your local origin markers."},
+      "markerOutline": {"Name": "Draw marker outline", "Hint": "Draw a dark outline around each marker."},
+      "minMarkerPx": {"Name": "Minimum marker size (px)", "Hint": "Smallest permitted marker diameter on screen."},
+      "maxMarkerPx": {"Name": "Maximum marker size (px)", "Hint": "Largest permitted marker diameter on screen."},
+      "zoomCompensation": {"Name": "Marker zoom compensation", "Hint": "Full keeps the marker's nominal screen diameter stable; Mild applies half of that correction and retains some zoom response.", "Full": "Full (stable screen size)", "Mild": "Mild (half correction)"},
+      "enforceSharedAppearance": {"Name": "Enforce shared marker appearance", "Hint": "Use the GM-configured shared appearance for all users; visibility remains private."},
+      "sharedMarkerColor": {"Name": "Shared marker color", "Hint": "GM-controlled shared marker color."},
+      "sharedMarkerOutline": {"Name": "Shared marker outline", "Hint": "GM-controlled shared outline."},
+      "sharedMinMarkerPx": {"Name": "Shared minimum marker size (px)", "Hint": "GM-controlled shared minimum size."},
+      "sharedMaxMarkerPx": {"Name": "Shared maximum marker size (px)", "Hint": "GM-controlled shared maximum size."},
+      "sharedZoomCompensation": {"Name": "Shared marker zoom compensation", "Hint": "GM-controlled shared zoom compensation curve."}
+    },
+    "Navigator": {
+      "Title": "Lightkeeper", "OpenSettings": "Open Lightkeeper settings", "Search": "Search name or coordinates", "Filters": "Show matching", "Hidden": "Hidden", "Locked": "Locked", "Positive": "Positive light", "Negative": "Negative darkness", "Inactive": "Inactive", "Active": "Active", "UnnamedLight": "Light", "Elevation": "Elevation", "Bright": "Bright", "Dim": "Dim", "Select": "Select", "Focus": "Focus", "Rename": "Rename", "Configure": "Configure", "Empty": "No ambient lights match.", "NoRenamePermission": "You do not have permission to rename this Ambient Light.", "RenamePrompt": "Ambient Light name", "RenameFailed": "Unable to rename this Ambient Light.", "ActionFailed": "Unable to complete this Lightkeeper action."
+    }
+  }
+}

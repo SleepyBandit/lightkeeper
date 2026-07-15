@@ -1,0 +1,16 @@
+.lightkeeper-navigator.application { min-height: 0; }
+.lightkeeper-navigator.application .window-content { display: flex; flex: 1 1 0; min-height: 0; min-width: 0; overflow: hidden; }
+.lightkeeper-navigator__content { box-sizing: border-box; display: flex; flex: 1 1 0; flex-direction: column; gap: .5rem; height: 100%; min-height: 0; min-width: 0; overflow: hidden; padding: .6rem; }
+.lightkeeper-navigator__toolbar { flex: 0 0 auto; min-width: 0; }
+.lightkeeper-navigator__toolbar input[type="search"] { max-width: 100%; min-width: 0; width: 100%; }
+.lightkeeper-navigator fieldset { border: 0; display: flex; flex-wrap: wrap; gap: .35rem .7rem; margin: .35rem 0 0; padding: 0; }
+.lightkeeper-navigator legend { font-size: .85em; font-weight: 600; }
+.lightkeeper-navigator__list { display: grid; flex: 1 1 0; gap: .45rem; height: 0; list-style: none; margin: 0; min-height: 0; min-width: 0; padding: 0 var(--scroll-margin) 0 0; }
+.lightkeeper-navigator__entry { border: 1px solid var(--color-border-light-2); border-radius: 4px; min-width: 0; padding: .45rem; }
+.lightkeeper-navigator__heading { align-items: baseline; display: flex; gap: .5rem; justify-content: space-between; min-width: 0; }
+.lightkeeper-navigator__heading strong, .lightkeeper-navigator__heading span { min-width: 0; overflow-wrap: anywhere; }
+.lightkeeper-navigator__heading span, .lightkeeper-navigator__meta { color: var(--color-text-dark-secondary); font-size: .84em; }
+.lightkeeper-navigator__meta { margin-top: .2rem; overflow-wrap: anywhere; }
+.lightkeeper-navigator__actions { display: flex; flex-wrap: wrap; gap: .3rem; margin-top: .45rem; }
+.lightkeeper-navigator__actions button { flex: 1 1 auto; }
+.lightkeeper-navigator__empty { color: var(--color-text-dark-secondary); padding: 1rem; text-align: center; }

@@ -1,0 +1,27 @@
+<section class="lightkeeper-navigator__content">
+  <div class="lightkeeper-navigator__toolbar">
+    <input id="lightkeeper-navigator-search" name="lightkeeper-navigator-search" data-lk-search type="search" value="{{query}}" placeholder="{{labels.search}}" aria-label="{{labels.search}}">
+    <fieldset>
+      <legend>{{labels.filters}}</legend>
+      {{#each filters}}
+        <label for="lightkeeper-navigator-filter-{{key}}"><input id="lightkeeper-navigator-filter-{{key}}" name="lightkeeper-navigator-filter-{{key}}" data-lk-filter type="checkbox" value="{{key}}" {{checked checked}}> {{label}}</label>
+      {{/each}}
+    </fieldset>
+  </div>
+  <ol class="lightkeeper-navigator__list scrollable">
+    {{#each entries}}
+      <li class="lightkeeper-navigator__entry" data-lk-entry data-light-id="{{id}}">
+        <div class="lightkeeper-navigator__heading"><strong>{{name}}</strong><span>{{states}}</span></div>
+        <div class="lightkeeper-navigator__meta">{{x}}, {{y}} · {{../labels.elevation}} {{elevation}} · {{../labels.bright}} {{bright}} / {{../labels.dim}} {{dim}}</div>
+        <div class="lightkeeper-navigator__actions">
+          <button type="button" data-action="select">{{../labels.select}}</button>
+          <button type="button" data-action="focus">{{../labels.focus}}</button>
+          {{#if canRename}}<button type="button" data-action="rename">{{../labels.rename}}</button>{{/if}}
+          <button type="button" data-action="configure">{{../labels.configure}}</button>
+        </div>
+      </li>
+    {{else}}
+      <li class="lightkeeper-navigator__empty">{{labels.empty}}</li>
+    {{/each}}
+  </ol>
+</section>

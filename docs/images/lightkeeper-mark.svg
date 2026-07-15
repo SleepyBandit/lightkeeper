@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Lightkeeper lighthouse mark</title>
+  <desc id="desc">A small ivory lighthouse with a warm lantern on a dark navy field.</desc>
+  <rect width="128" height="128" rx="24" fill="#111827"/>
+  <path d="M64 18 84 33H44L64 18Z" fill="#f7e7ba"/>
+  <path d="M48 36H80V55H48Z" fill="#d59d49"/>
+  <path d="M54 40H74V51H54Z" fill="#fff4cb"/>
+  <path d="M50 58H78L86 108H42L50 58Z" fill="#f5f0df"/>
+  <path d="M59 67H69V108H59Z" fill="#334155"/>
+  <path d="M42 108H86" stroke="#d59d49" stroke-width="6" stroke-linecap="round"/>
+  <path d="M30 48 10 39M98 48l20-9" stroke="#f7e7ba" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+  <path d="M28 74c10 7 20 7 30 0s20-7 30 0" fill="none" stroke="#5f7895" stroke-width="4" stroke-linecap="round"/>
+</svg>
