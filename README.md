@@ -28,7 +28,7 @@ On the Lighting layer, Lightkeeper redraws Foundry's own Ambient Light translate
 
 ![An Ambient Light origin with Lightkeeper's visible native handle](docs/images/marker-example.jpg)
 
-Marker appearance is configurable per user. A GM can also enforce a shared color, outline, size range, and zoom compensation curve.
+Marker appearance is configurable per user, allowing you to change color, outline, size range, and zoom compensation curve.
 
 ### Open the Navigator
 
@@ -58,7 +58,6 @@ Lightkeeper settings cover:
 - minimum and maximum marker size
 - mild or full zoom compensation
 - private marker visibility
-- GM-managed shared appearance
 
 ## Compatibility
 
