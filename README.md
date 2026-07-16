@@ -40,7 +40,7 @@ Search by name or coordinates. Filters narrow the list to hidden, locked, positi
 
 ### Work from the list
 
-Each entry can select the light, focus the canvas on it, rename it when you have permission, or open Foundry's normal configuration sheet. The list uses Foundry's native scrolling behavior when a scene has more lights than fit in the window.
+Each entry can select the light, focus the canvas on it, rename it when you have permission, or open Foundry's normal configuration sheet.
 
 ## Who can use it
 
